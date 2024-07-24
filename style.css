@@ -1,0 +1,129 @@
+.circle {
+    content: "";
+    width: 375px;
+    height: 375px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,103,0.87718837535014) 35%, rgba(255,0,138,1) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img-phone-1{
+    max-width: 60%;
+}
+
+.circle::before{
+    content: "x";
+    position: absolute;
+    color: blue;
+    font size: 80px;
+    
+    left: 0;
+    bottom: 0;
+    transform: rotate(-15deg);
+    font-weight: bold;
+    
+
+
+
+
+}
+.circle::after{
+    content: "";
+    position: absolute;
+    background: blue;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    right: 0;
+    font size: 20px;
+    transform: rotate(-15deg);
+  
+}
+
+.bg-secondsection{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,103,0.87718837535014) 35%, rgba(255,0,138,1) 100%);
+}
+
+.circle-2{
+    content: "";
+    width: 230px;
+    height: 230px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,103,0.87718837535014) 35%, rgba(255,0,138,1) 100%);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+
+
+
+
+}
+.img-phone-2{
+    width: 100%;
+    margin-left: 60px;
+
+}
+.circle-2::before{
+    content: "a";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    font-size: 20px;
+    color: blue;
+   border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    transform: rotate(30deg);
+    
+}
+.circle-2::after{
+    content: "x";
+    content: "x";
+    position: absolute;
+    color: blue;
+    font size: 80px;
+    font-weight: 700px;
+    
+    top: 0;
+    boright: 0;
+    transform: rotate(-15deg);
+    font-weight: bold;
+    margin-right: -300px;
+    margin-top: -65px;
+}
+.bi-phone{
+    font-size: 4rem;
+    color: blue;
+}
+
+.bg-primary{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,103,0.87718837535014) 35%, rgba(255,0,138,1) 100%);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.bg-nasıldesem{
+  display: flex;
+align-items: center;
+justify-content: center;  
+}
+
+.last-section{
+    background-color: black;
+}
+.bağlantı{
+    color:white
+}
+.last-section{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,103,0.87718837535014) 35%, rgba(255,0,138,1) 100%);
+}
+.modal-header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,103,0.87718837535014) 35%, rgba(255,0,138,1) 100%);
+}
+
